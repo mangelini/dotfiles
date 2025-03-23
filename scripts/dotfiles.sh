@@ -18,4 +18,4 @@ if ! git remote | grep -q origin; then
   git remote add origin "$REMOTE_URL"
 fi
 
-git push -u origin master
+git push -u origin main
