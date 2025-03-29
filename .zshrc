@@ -14,10 +14,16 @@ autoload -U colors && colors
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
-setopt appendhistory
-setopt hist_ignore_all_dups  # ignore duplicate commands
-setopt hist_reduce_blanks    # trim blanks
-setopt share_history         # share history between sessions
+setopt EXTENDED_HISTORY       # Save timestamp and duration of commands
+setopt INC_APPEND_HISTORY     # Append commands to HISTFILE immediately
+setopt SHARE_HISTORY          # Share history between all sessions
+setopt HIST_IGNORE_DUPS       # Ignore duplicate commands
+setopt HIST_IGNORE_ALL_DUPS   # Remove older duplicate commands
+setopt HIST_FIND_NO_DUPS      # Do not display duplicates when searching history
+setopt HIST_IGNORE_SPACE      # Ignore commands starting with a space
+setopt HIST_SAVE_NO_DUPS      # Do not save duplicate commands to HISTFILE
+setopt HIST_VERIFY            # Show commands before executing them
+setopt APPEND_HISTORY         # Append to HISTFILE instead of overwriting
 
 # Basic auto/tab completion
 autoload -U compinit
