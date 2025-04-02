@@ -2,7 +2,7 @@
 cp -r ~/.config/hypr ~/dotfiles/.config
 cp -r ~/.config/ghostty ~/dotfiles/.config
 cp -r ~/.config/hyprpanel ~/dotfiles/.config
-cp -r ~/.config/ashell.yml ~/dotfiles/.config
+cp -r ~/.config/waybar ~/dotfiles/.config
 cp -r ~/Pictures/ ~/dotfiles/
 cp -r ~/scripts/ ~/dotfiles/
 cp ~/.zshrc ~/dotfiles
