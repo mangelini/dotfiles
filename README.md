@@ -8,6 +8,7 @@
 - Hyprpaper
 - Ghostty
 - Waybar
+- Zen Browser
 
 ## Zsh configuration
 
