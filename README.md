@@ -1,5 +1,7 @@
 # My Dotfiles
 
+![Rice Image](Pictures/rice.png)
+
 ## Zsh configuration
 
 Install zsh in arch with `sudo pacman -S zsh` and then set it as default shell with `chsh -s $(which zsh)`.
